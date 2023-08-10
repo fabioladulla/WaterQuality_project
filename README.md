@@ -1,4 +1,4 @@
-### Predicting Water Quality: A Machine Learning Approach
+# Predicting Water Quality: A Machine Learning Approach
 
 ### Introduction
 Water is a fundamental necessity of life. However, the quality of water we consume can significantly impact our health. This project uses machine learning to predict whether water is drinkable based on various quality parameters.
@@ -22,7 +22,7 @@ Target Variable:
 
 10. Potability: Indicates if water is safe for human consumption. Potable - 1 and Not potable - 0
 
-### Project Structure
+# Project Structure
 
 # 1.Exploratory Data Analysis (EDA)
 - No significant outliers
@@ -75,6 +75,6 @@ Feature Importance Rank for the best performing model:
  (0.07657834747858894, 'Organic_carbon'),
  (0.07517792044902104, 'Conductivity')]
  
-### Conclusions
+# Conclusions
 The best performing model:
 Upsampling + SMOTE --> StandardScaler --> Random Forest Classifier --> Kappa = 0.87
